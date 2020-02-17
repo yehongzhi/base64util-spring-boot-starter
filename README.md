@@ -5,13 +5,13 @@
 <repositories>
 		<repository>
 		    <id>jitpack.io</id>
-		    <url>https://www.jitpack.io</url>
+		    <url>https://jitpack.io</url>
 		</repository>
 </repositories>
 <dependency>
 	    <groupId>com.github.yehongzhi</groupId>
 	    <artifactId>base64util-spring-boot-starter</artifactId>
-	    <version>Tag</version>
+	    <version>0.0.1</version>
 </dependency>
 ```
 就可以引入base64util-spring-boot-starter
