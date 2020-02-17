@@ -1,19 +1,16 @@
 package com.lovebilibili.me.util;
 
+import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-
-import static com.sun.org.apache.xml.internal.security.utils.Base64.encode;
 
 /**
  * @author Ye Hongzhi
@@ -66,7 +63,7 @@ public class Base64Util {
                 baos.write(buffer, 0, len);
             }
             // 对字节数组Base64编码
-            return encode(baos.toByteArray());
+            return Base64.encode(baos.toByteArray());
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
