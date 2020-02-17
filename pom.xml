@@ -9,7 +9,7 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.lovebilibili.me</groupId>
+    <groupId>com.github.yehongzhi</groupId>
     <artifactId>base64util-spring-boot-starter</artifactId>
     <version>0.0.1</version>
 
