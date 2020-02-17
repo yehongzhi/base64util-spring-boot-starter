@@ -11,7 +11,7 @@
     </parent>
     <groupId>com.lovebilibili.me</groupId>
     <artifactId>base64util-spring-boot-starter</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <dependencies>
         <dependency>
